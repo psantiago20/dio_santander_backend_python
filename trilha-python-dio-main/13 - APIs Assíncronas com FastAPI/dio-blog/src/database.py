@@ -1,6 +1,5 @@
 import databases
 import sqlalchemy as sa
-
 from src.config import settings
 
 database = databases.Database(settings.database_url)

@@ -9,9 +9,8 @@ from flask_bcrypt import Bcrypt
 from flask_marshmallow import Marshmallow
 from flask_migrate import Migrate
 from sqlalchemy.exc import IntegrityError
-from werkzeug.exceptions import HTTPException
-
 from src.models import db
+from werkzeug.exceptions import HTTPException
 
 migrate = Migrate()
 bcrypt = Bcrypt()

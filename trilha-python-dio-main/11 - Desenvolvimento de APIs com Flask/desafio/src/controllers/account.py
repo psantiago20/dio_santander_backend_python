@@ -2,7 +2,6 @@ from http import HTTPStatus
 
 from flask import Blueprint, request
 from marshmallow import ValidationError
-
 from src.services.account import AccountService
 from src.views.account import AccountSchema
 

@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-
 from src.schemas.auth import LoginIn
 from src.security import sign_jwt
 from src.views.auth import LoginOut

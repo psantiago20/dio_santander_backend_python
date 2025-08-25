@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends, status
-
 from src.schemas.account import AccountIn
 from src.security import login_required
 from src.services.account import AccountService

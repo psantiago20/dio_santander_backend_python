@@ -1,5 +1,4 @@
 from marshmallow import fields
-
 from src.app import ma
 from src.models.account import Account
 

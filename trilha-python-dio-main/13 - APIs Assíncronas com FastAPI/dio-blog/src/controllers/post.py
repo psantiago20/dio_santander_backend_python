@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends, status
-
 from src.schemas.post import PostIn, PostUpdateIn
 from src.security import login_required
 from src.services.post import PostService

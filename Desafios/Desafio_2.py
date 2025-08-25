@@ -1,6 +1,7 @@
 # Otimizando o Sistema Bancário com Funções Python
 import textwrap
 
+
 def menu():
     menu = """
         =============== MENU ===============

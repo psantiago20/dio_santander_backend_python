@@ -1,5 +1,4 @@
 import sqlalchemy as sa
-
 from src.database import metadata
 
 accounts = sa.Table(

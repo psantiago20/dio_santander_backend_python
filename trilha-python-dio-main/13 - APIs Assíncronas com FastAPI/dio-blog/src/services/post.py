@@ -1,5 +1,4 @@
 from databases.interfaces import Record
-
 from src.database import database
 from src.exceptions import NotFoundPostError
 from src.models.post import posts

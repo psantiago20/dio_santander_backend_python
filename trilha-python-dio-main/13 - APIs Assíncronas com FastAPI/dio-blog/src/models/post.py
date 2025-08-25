@@ -1,5 +1,4 @@
 import sqlalchemy as sa
-
 from src.database import metadata
 
 posts = sa.Table(

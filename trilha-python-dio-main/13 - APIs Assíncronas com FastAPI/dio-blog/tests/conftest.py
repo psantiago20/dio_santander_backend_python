@@ -2,7 +2,6 @@ import asyncio
 
 import pytest_asyncio
 from httpx import ASGITransport, AsyncClient
-
 from src.config import settings
 
 settings.database_url = "sqlite:///tests.db"

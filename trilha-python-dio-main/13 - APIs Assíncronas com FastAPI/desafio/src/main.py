@@ -3,7 +3,6 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-
 from src.controllers import account, auth, transaction
 from src.database import database
 from src.exceptions import AccountNotFoundError, BusinessError

@@ -1,7 +1,6 @@
 from logging.config import fileConfig
 
 from alembic import context
-
 from src.config import settings
 
 # this is the Alembic Config object, which provides
@@ -15,8 +14,8 @@ if config.config_file_name is not None:
 
 
 from src.database import engine, metadata  # noqa
-from src.models.transaction import transactions  # noqa
 from src.models.account import accounts  # noqa
+from src.models.transaction import transactions  # noqa
 
 target_metadata = metadata
 

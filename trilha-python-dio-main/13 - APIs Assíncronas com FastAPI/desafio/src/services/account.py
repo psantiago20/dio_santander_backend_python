@@ -1,5 +1,4 @@
 from databases.interfaces import Record
-
 from src.database import database
 from src.models.account import accounts
 from src.schemas.account import AccountIn
