@@ -1,0 +1,4 @@
+.venv
+.ruff_cache
+Desafio_Fast_API\.venv
+\__pycache__
