@@ -1,0 +1,22 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+.pytest_cache
+store\__pycache__
+store\controllers\__pycache__
+store\core\__pycache__
+store\db\__pycache__
+store\models\__pycache__
+store\schemas\__pycache__
+store\usecases\__pycache__
+tests\__pycache__
+tests\controllers\__pycache__
+tests\schemas\__pycache__
+tests\usecases\__pycache__
+
+# Arquivos de sistema
+.DS_Store
+.vscode
